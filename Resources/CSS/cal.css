@@ -2,7 +2,7 @@
 box-sizing:border-box;margin:0px;padding:0px;	
 }
 h1{
-	text-align:center;color:white;margin-top:30px;text-decoration:underline;font-size:28px;
+	text-align:center;color:white;margin-top:25px;text-decoration:underline;font-size:28px;
 }
 html{
 	background: url("../Images/darknet.jpg") no-repeat center center fixed;background-size:cover;
@@ -10,7 +10,7 @@ html{
 }
 .container{
 top:50%;left:50%;transform:translate(-50%,-50%);max-width:700px;
-position:absolute;border:none;border-radius:15px;height:70%;width:450px;
+position:absolute;border:none;border-radius:15px;height:80%;width:450px;
 background-color:coral;box-shadow:8px -9px 5px 10px black;
 }
 #txt{
@@ -21,29 +21,46 @@ hr{
 	color:black;padding:3px;margin-top:25px;width:300px;margin-right:auto;margin-left:auto;
 }
 #btnclr{
-background-color:black;border-radius:7px;padding:20px;width:41%;color:white;font-size:20px;height:70px;  
+background-color:black;border-radius:7px;padding:20px;width:41%;color:white;font-size:20px;height:41%;  
 }
 #btn1{
-background-color:black;border-radius:7px;padding:20px;width:20%;color:white;font-size:20px;height:70px;  
+background-color:black;border-radius:7px;padding:20px;width:20%;color:white;font-size:20px;height:41%;  
 }
 
 #btns{
 	margin-top:20px;margin-right:2%;margin-left:15%;padding:5px;
 }
-@media screen and (max-width:1250px){
+@media screen and (max-width:350px){
 	.container{
-height:55%;margin:4px auto;width:580px;
+height:55%;margin:10px auto;width:500px;max-height:60%;
 }
 h1{
-	margin-top:21%;font-size:40px;
-}
-#btn1{
-width:20%;color:white;font-size:25px;height:95px;  
-}
-#btnclr{
-width:41%;color:white;font-size:25px;height:95px;  
+	margin-top:20%;font-size:28px;
 }
 #btns{
 	margin-top:40px;
+}
+#btn1{
+width:20%;font-size:20px;height:60%;  
+}
+#btnclr{
+width:41%;font-size:20px;height:60%;  
+}
+}
+@media screen and (max-width:1224px){
+	.container{
+height:80%;margin:3px auto;width:480px;max-height:100%;
+}
+h1{
+	margin-top:2%;font-size:23px;
+}
+#btn1{
+width:20%;color:white;font-size:22px;height:55%;  
+}
+#btnclr{
+width:41%;color:white;font-size:22px;height:55%;  
+}
+#btns{
+	margin-top:30px;
 }
 }
